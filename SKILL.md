@@ -11,7 +11,7 @@ depends_on:
   - lov-branding-consistency
 metadata:
   author: LovStudio
-  version: "0.1.1"
+  version: "0.1.2"
   card_standard: lovstudio/skill-card/v1
   content_class: deterministic-output
   tags:
@@ -22,7 +22,7 @@ metadata:
     - local-first
 ---
 
-# lov-create-qrcode
+# 二维码工坊 · QR Studio
 
 把一段内容确定性地生成二维码或按需生成 Warm Academic 海报 PNG。默认只输出二维码
 本体，不加 header、footer、标题或明文；配色、码点、尺寸、纠错和海报选项可由当前
