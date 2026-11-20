@@ -1,6 +1,6 @@
 # 二维码工坊 · QR Studio
 
-![Version](https://img.shields.io/badge/version-0.1.2-CC785C)
+![Version](https://img.shields.io/badge/version-0.1.3-CC785C)
 
 把网址、文本或其他 UTF-8 内容生成可扫码验证的二维码 PNG，并跨 session 复用用户
 自己的配色、圆角、尺寸、纠错和海报偏好。默认只有码本体，不带 header、footer、
@@ -9,7 +9,7 @@
 ## 本地安装
 
 ```bash
-npx skills add lov-create-qrcode -g -y
+npx lovstudio skills add create-qrcode -g -y
 ```
 
 本地开发时，共享安装位应指向本 Skill 真源，宿主安装位再用相对 symlink 指向共享入口。
